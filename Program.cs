@@ -1,5 +1,4 @@
 ﻿using laba_2;
-using System.Linq.Expressions;
 
 Console.WriteLine("Лабораторная работа 2");
 var obj = new laba_2.GameObject(1, "Объект", 3, 5);

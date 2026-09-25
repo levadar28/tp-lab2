@@ -9,7 +9,7 @@ namespace laba_2
     internal class Fort : Building, Attacker
     {
         private float attackDamage;
-        public Fort(int id, string name, int x, int y, bool IsBuilt, float attackDamage) : base(id, name, x, y, IsBuilt)
+        public Fort(int id, string name, int x, int y, bool isBuilt, float attackDamage) : base(id, name, x, y, isBuilt)
         {
             this.attackDamage = attackDamage;
         }
